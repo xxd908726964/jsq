@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             String st = tv.getText().toString();
             switch (view.getId()) {
                 case R.id.button_0:
-                    if ((st == "0")){
+                    if ((st.equals("0"))){
                         tv.setText("0");
                     } else {
                         tv.setText(st + "0");
